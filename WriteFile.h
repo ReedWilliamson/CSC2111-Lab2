@@ -13,7 +13,7 @@ private:
    bool closed;
    
 public:
-   WriteFile(const char* file_name); //this is the constructor.
+   WriteFile(const char* file_name); //this is the.
    ~WriteFile();  //destructor
    void writeLine(String* line);
    void close();
