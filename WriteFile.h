@@ -5,7 +5,7 @@
 
 #include <fstream>
 using namespace std;
-
+//this is a test comment for the mergetool
 class WriteFile
 {
 private:
