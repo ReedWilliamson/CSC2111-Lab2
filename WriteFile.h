@@ -9,11 +9,11 @@ using namespace std;
 class WriteFile
 {
 private:
-   ofstream output_file;
+   ofstream output_file;  
    bool closed;
    
 public:
-   WriteFile(const char* file_name);
+   WriteFile(const char* file_name); //this is the constructor.
    ~WriteFile();  //destructor
    void writeLine(String* line);
    void close();
